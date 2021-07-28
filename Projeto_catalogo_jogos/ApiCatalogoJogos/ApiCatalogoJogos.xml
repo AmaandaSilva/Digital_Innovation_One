@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoJogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <sumary>
+             Buscar todos os jogos de forma paginada
+            </sumary>
+             <param name="pagina">Indica qual página está sendo consultada.</param>
+             <param name="quantidade">Indica a quantidade de reistros por página.</param>
+             <response code="200">Retorna a lista de jogos</response>
+             <response code="204">Caso não haja jogos</response>   
+        </member>
+    </members>
+</doc>
